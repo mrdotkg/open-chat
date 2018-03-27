@@ -107,7 +107,7 @@ body {
   display: block;
 }
 .heading-online {
-  display: none;
+  /* display: none; */
   padding: 0 5px;
   font-size: 12px;
   color: #93918f;
@@ -187,10 +187,10 @@ body {
   padding: 0 !important;
 }
 
-.avatar-icon img {
+.avatar-icon img, .avatar-icon i {
   border-radius: 50%;
-  height: 49px;
-  width: 49px;
+  height: 50px;
+  width: 50px;
 }
 
 .sideBar-main {
@@ -510,7 +510,7 @@ body {
     text-align: left;
     padding: 0 8px !important;
   }
-  .avatar-icon img {
+  .avatar-icon img, .avatar-icon i {
     height: 55px;
     width: 55px;
   }
@@ -581,4 +581,25 @@ body {
     padding: 5px 2px 5px 0 !important;
     font-size: 1.8em !important;
   }
+}
+
+.heading-title{
+  padding: 10px 0px 5px 0px;
+  font-weight: 700;
+}
+
+.chat-bg{
+  background-image: url("bg.png");
+}
+.side-one.profile{
+  border-left: 1px solid rgba(0, 0, 0, .08);
+}
+.heading-close{
+  cursor: pointer;
+}
+.side-one.profile .sideBar{
+  height: calc(100% - 60px);
+}
+.profile-details{
+  margin-left:10%;
 }
