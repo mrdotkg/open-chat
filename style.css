@@ -11,7 +11,6 @@ span {
 }
 
 body {
-  background: url("http://shurl.esy.es/y") no-repeat fixed center;
   background-size: cover;
 }
 
@@ -81,7 +80,6 @@ body {
 .heading-avatar {
   padding: 0;
   cursor: pointer;
-
 }
 
 .heading-avatar-icon img {
@@ -184,6 +182,7 @@ body {
 .sideBar-avatar {
   text-align: center;
   padding: 0 !important;
+  
 }
 
 .avatar-icon img{
@@ -203,6 +202,8 @@ body {
 
 .sideBar-name {
   padding: 10px !important;
+  text-align: left;
+
 }
 
 .name-meta {
@@ -215,7 +216,7 @@ body {
 }
 
 .sideBar-time {
-  padding: 10px !important;
+  padding: 12px 0px 10px 0px !important;
 }
 
 .time-meta {
@@ -255,9 +256,10 @@ body {
 }
 
 .newMessage-title {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 700;
   padding: 10px 5px !important;
+  text-align: left;
 }
 .newMessage-back {
   text-align: center;
@@ -479,6 +481,7 @@ body {
   }
   .heading-avatar {
     padding: 0 !important;
+    cursor: pointer;
   }
   .heading-avatar-icon img {
     height: 50px;
@@ -522,13 +525,14 @@ body {
   }
   .sideBar-name {
     padding: 10px 5px !important;
+    text-align: left;
   }
   .name-meta {
     font-size: 16px;
     padding: 5% !important;
   }
   .sideBar-time {
-    padding: 10px !important;
+    padding: 12px 0px 10px 0px !important;
   }
   .time-meta {
     text-align: right;
@@ -583,6 +587,7 @@ body {
 }
 
 .heading-title{
+  text-align: left;
   padding: 10px 0px 5px 0px;
   font-weight: 700;
 }
@@ -600,7 +605,11 @@ body {
   height: calc(100% - 60px);
 }
 .profile-details{
-  margin-left:10%;
+  margin-left:0px;
+  margin-right:0px;
+}
+.profile-form{
+  padding: 5px;
 }
 .form-control {
   border: 0;
@@ -623,4 +632,33 @@ body {
 }
 .sideBar-time i.action{
   padding-left : 2px; 
+}
+body {
+  background: url("http://shurl.esy.es/y") no-repeat fixed center;
+  background-color: cyan;
+}
+#background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 11%;
+  background-color: pink;
+  z-index: 1;
+}
+
+#content {
+  position: relative;
+  z-index: 2;
+  /* padding: 30px; */
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.heading-name{
+  text-align: left;
 }
