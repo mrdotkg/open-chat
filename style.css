@@ -405,10 +405,11 @@ body {
 /*Reply*/
 
 .reply {
+  vertical-align: middle;
   height: 60px;
   width: 100%;
   background-color: transparent;
-  padding: 10px 5px 10px 5px !important;
+  padding: 10px 0px 10px 0px !important;
   margin: 0 !important;
   z-index: 1000;
 }
