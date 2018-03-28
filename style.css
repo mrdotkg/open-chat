@@ -407,7 +407,7 @@ body {
 .reply {
   height: 60px;
   width: 100%;
-  background-color: #f5f1ee;
+  background-color: transparent;
   padding: 10px 5px 10px 5px !important;
   margin: 0 !important;
   z-index: 1000;
@@ -677,6 +677,12 @@ body {
   color:green;
   font-weight: 200;
 }
-* {
+/* * {
   border: none !important;
+} */
+.name-meta{
+  color: gray;
+}
+.active .name-meta{
+  color: black;
 }
