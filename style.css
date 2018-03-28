@@ -107,7 +107,6 @@ body {
   display: block;
 }
 .heading-online {
-  /* display: none; */
   padding: 0 5px;
   font-size: 12px;
   color: #93918f;
@@ -118,19 +117,19 @@ body {
 
 .heading-compose i {
   text-align: center;
-  padding: 5px;
+  padding: 1px;
   color: #93918f;
   cursor: pointer;
 }
 
 .heading-dot {
   padding: 0;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .heading-dot i {
   text-align: right;
-  padding: 5px;
+  padding: 1px;
   color: #93918f;
   cursor: pointer;
 }
@@ -187,7 +186,7 @@ body {
   padding: 0 !important;
 }
 
-.avatar-icon img, .avatar-icon i {
+.avatar-icon img{
   border-radius: 50%;
   height: 50px;
   width: 50px;
@@ -510,7 +509,7 @@ body {
     text-align: left;
     padding: 0 8px !important;
   }
-  .avatar-icon img, .avatar-icon i {
+  .avatar-icon img{
     height: 55px;
     width: 55px;
   }
@@ -602,4 +601,26 @@ body {
 }
 .profile-details{
   margin-left:10%;
+}
+.form-control {
+  border: 0;
+}
+.avatar-container img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.badge{
+  height: auto;
+  width: 25%;
+  text-align: center;
+  color: white;
+  background-color: lightseagreen;
+  vertical-align: middle;
+}
+.online{
+  color:lightgreen;
+  vertical-align: middle;
+}
+.sideBar-time i.action{
+  padding-left : 2px; 
 }
