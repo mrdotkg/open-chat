@@ -630,6 +630,7 @@ body {
   vertical-align: middle;
   position: absolute;
   bottom: 0;
+  left:20px;
 }
 .online{
   color:green;
