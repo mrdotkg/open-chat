@@ -192,7 +192,7 @@ body {
 }
 
 .sideBar-main {
-  padding: 0 !important;
+  padding: 0px 2px !important;
 }
 
 .sideBar-main .row {
@@ -201,7 +201,8 @@ body {
 }
 
 .sideBar-name {
-  padding: 10px !important;
+  padding: 12px 0px 0px 0px !important;
+  height: fit-content;
   text-align: left;
 
 }
@@ -216,7 +217,7 @@ body {
 }
 
 .sideBar-time {
-  padding: 12px 0px 10px 0px !important;
+  padding: 12px 0px 0px 0px !important;
 }
 
 .time-meta {
@@ -517,14 +518,14 @@ body {
     width: 55px;
   }
   .sideBar-main {
-    padding: 0 !important;
+    padding: 0px 2px !important;
   }
   .sideBar-main .row {
     padding: 0 !important;
     margin: 0 !important;
   }
   .sideBar-name {
-    padding: 10px 5px !important;
+    padding: 12px 0px 0px 0px !important;
     text-align: left;
   }
   .name-meta {
@@ -532,7 +533,7 @@ body {
     padding: 5% !important;
   }
   .sideBar-time {
-    padding: 12px 0px 10px 0px !important;
+    padding: 12px 0px 0px 0px !important;
   }
   .time-meta {
     text-align: right;
@@ -620,11 +621,13 @@ body {
 }
 .badge{
   height: auto;
-  width: 25%;
+  width: auto;
   text-align: center;
   color: white;
   background-color: lightseagreen;
   vertical-align: middle;
+  position: absolute;
+  bottom: 0;
 }
 .online{
   color:lightgreen;
@@ -661,4 +664,11 @@ body {
 }
 .heading-name{
   text-align: left;
+}
+
+.just-high{
+  height: fit-content;
+}
+.unread-preview{
+  text-align: left
 }
