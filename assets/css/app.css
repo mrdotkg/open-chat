@@ -11,7 +11,6 @@ span {
 }
 
 body {
-  background-size: cover;
   overflow-y: hidden !important;
 }
 
@@ -102,7 +101,7 @@ body {
   text-align: left;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: #000;
+  color: #0009;
   display: block;
 }
 .heading-online {
@@ -214,7 +213,7 @@ body {
   text-align: left;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: #000;
+  color: #0009;
 }
 
 .sideBar-time {
@@ -239,22 +238,22 @@ body {
   left: -100%;
 }
 .newMessage-heading {
-  padding: 10px 16px 10px 15px !important;
+  /* padding: 10px 16px 10px 15px !important; */
   margin: 0 !important;
-  height: 100px;
+  height: 60px;
   width: 100%;
-  background-color: #00bfa5;
+  background-color: #eeeeee;
   z-index: 1001;
 }
 
 .newMessage-main {
-  padding: 10px 16px 0 15px !important;
+  /* padding: 10px 16px 0 15px !important; */
   margin: 0 !important;
   height: 60px;
-  margin-top: 30px !important;
+  margin-top: 5px !important;
   width: 100%;
   z-index: 1001;
-  color: #fff;
+  color: #93918f;
 }
 
 .newMessage-title {
@@ -262,6 +261,7 @@ body {
   font-weight: 700;
   padding: 10px 5px !important;
   text-align: left;
+  color: #0009;
 }
 .newMessage-back {
   text-align: center;
@@ -591,7 +591,8 @@ body {
   }
 }
 
-.heading-title{
+.heading-title {
+  color:#0009;
   text-align: left;
   padding: 10px 0px 5px 0px;
   font-weight: 700;
@@ -618,6 +619,7 @@ body {
 }
 .form-control {
   border: 0;
+  color:#0009;
 }
 .avatar-container img:hover{
   opacity: 0.5;
@@ -643,6 +645,8 @@ body {
 }
 body {
   background-color: #eeeeee;
+  background-image: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/arches.png) !important;
+
 }
 #background {
   position: fixed;
@@ -684,5 +688,12 @@ body {
   color: gray;
 }
 .active .name-meta{
-  color: black;
+  color: #000;
 }
+
+
+
+
+/**
+********************************
+**/
