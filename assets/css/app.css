@@ -645,7 +645,7 @@ body {
 }
 body {
   background-color: #eeeeee;
-  background-image: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/arches.png) !important;
+  background-image: url("assets/images/arches.png") !important;
 
 }
 #background {
