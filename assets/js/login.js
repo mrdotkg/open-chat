@@ -24,7 +24,7 @@ $( document ).ready(function() {
     start();
   });
 
-  $('.input').keypress(function (e) {
+  $('form').keypress(function (e) {
     if (e.which == 13) {
       start();
       return false;
