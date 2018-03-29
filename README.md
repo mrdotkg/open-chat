@@ -1,4 +1,4 @@
-# chat-ui
+# OpenChat
 
 ## Demo
 
