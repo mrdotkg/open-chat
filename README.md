@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://measdot.github.io/chat-ui/
+`coming soon`
 
 ## to get the project
 
