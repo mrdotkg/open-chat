@@ -7,7 +7,7 @@
 ## to get the project
 
 ```
-git clone https://github.com/measdot/chat-ui.git
+git clone https://github.com/measdot/open-chat.git
 ```
 
 ## screens
