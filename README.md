@@ -2,7 +2,12 @@
 
 ## Demo
 
-`coming soon`
+```
+username  :   johndoe@company.com
+password  :   12345678
+```
+
+link      :   https://measdot.github.io/open-chat
 
 ## to get the project
 
